@@ -1,0 +1,17 @@
+{
+  "poc": "Bull MCP bull_fund_tokens direct path — server-returned steps sent with no verification; victim loses 1,000,000 tokens to attacker deal",
+  "mcp": "bull-mcp.mjs (verbatim copy of https://www.bull.family/mcp/bull-mcp.mjs, sha256 29110f7c…75b18)",
+  "escrow": "BullEscrow.sol (verbatim source, verified on Sourcify chain 4663)",
+  "agreedSellAmount": "100",
+  "attackerDealSellAmount": "1000000",
+  "deal1Id": "1",
+  "deal2Id": "2",
+  "deal1StatusOpen": true,
+  "deal2StatusSettled": true,
+  "victimTokenBalanceBefore": "1000000",
+  "victimTokenBalanceAfter": "0",
+  "attackerTokenBalanceAfter": "1000000",
+  "buyerTokenBalanceAfter": "0",
+  "k26_signedBodyHashIsUnrelatedString": true,
+  "exploited": true
+}
